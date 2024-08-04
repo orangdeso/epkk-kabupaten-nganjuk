@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:e_pkk_nganjuk/welcome/presentation/welcome_screen.dart';
+import 'package:e_pkk_nganjuk/welcome/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
