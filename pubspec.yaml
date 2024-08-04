@@ -35,6 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.0.10+1
 
 dev_dependencies:
   flutter_test:
@@ -61,27 +62,6 @@ flutter:
   fonts:
     - family: DMSans
       fonts:
-        # - assets: fonts/DMSans-Thin.ttf
-        #   style: normal
-        #   weight: 100
-        # - asset: fonts/DMSans-ThinItalic.ttf
-        #   style: italic
-        #   weight: 100
-        # - asset: fonts/DMSans-ExtraLight.ttf
-        #   style: normal
-        #   weight: 200
-        # - asset: fonts/DMSans-ExtraLightItalic.ttf
-        #   style: italic
-        #   weight: 200
-        # - asset: fonts/DMSans-Light.ttf
-        #   style: normal
-        #   weight: 300
-        # - asset: fonts/DMSans-LightItalic.ttf
-        #   style: italic
-        #   weight: 300
-        # - asset: fonts/DMSans-Italic.ttf
-        #   style: italic
-        #   weight: 400
         - asset: fonts/DMSans-Regular.ttf
           style: normal
           weight: 400
@@ -109,12 +89,6 @@ flutter:
         - asset: fonts/DMSans-ExtraBoldItalic.ttf
           style: italic
           weight: 800
-        # - asset: fonts/DMSans-Black.ttf
-        #   style: normal
-        #   weight: 900
-        # - asset: fonts/DMSans-BlackItalic.ttf
-        #   style: italic
-        #   weight: 900
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
